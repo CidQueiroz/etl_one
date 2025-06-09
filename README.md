@@ -1,34 +1,22 @@
-Projeto de ETL do ONE
+# Projeto ETL - Análise de Evasão de Clientes (Churn) da TelecomX
 
-Descrição
-Este projeto tem como objetivo realizar processos de ETL (Extração, Transformação e Carga) utilizando Jupyter Notebooks, focado nas demandas do programa ONE.
+Este projeto tem como objetivo realizar um processo completo de **ETL (Extração, Transformação e Carga)** e análise exploratória dos dados de clientes da empresa fictícia **TelecomX**, visando identificar os principais fatores que contribuem para a evasão de clientes (churn) e propor recomendações estratégicas para retenção.
 
-Funcionalidades
-Extração de dados de diferentes fontes
-Transformação e limpeza de dados
-Carga dos dados processados para o destino desejado
-Documentação e visualização dos processos via Jupyter Notebook
-Pré-requisitos
-Python 3.x
-Jupyter Notebook
-Dependências adicionais (listar abaixo conforme necessário):
-bash
-pip install -r requirements.txt
-Como usar
-Clone este repositório:
-bash
-git clone https://github.com/CidQueiroz/etl_one.git
-Navegue até a pasta do projeto e abra o Jupyter Notebook:
-bash
-cd etl_one
-jupyter notebook
-Execute os notebooks conforme a ordem ou necessidade do projeto.
-Estrutura do Projeto
-notebooks/: Contém os Jupyter Notebooks do processo ETL
-data/: Dados de entrada e saída (se aplicável)
-requirements.txt: Lista de dependências do projeto
-Contribuição
-Sinta-se à vontade para abrir issues ou enviar pull requests. Sugestões e melhorias são bem-vindas!
+## 📁 Estrutura do Projeto
 
-Licença
-Este projeto está licenciado sob a licença MIT.
+- **TelecomX_BR.ipynb**: Notebook principal contendo todo o fluxo de ETL, análise exploratória e relatório final.
+- **Outros arquivos**: Notebooks e datasets auxiliares para estudos e testes.
+
+## 🚀 Como Executar
+
+1. **Pré-requisitos**  
+   Certifique-se de ter o Python 3.x instalado e as seguintes bibliotecas:
+   - pandas
+   - numpy
+   - matplotlib
+   - seaborn
+   - requests
+
+   Instale as dependências com:
+   ```bash
+   pip install pandas numpy matplotlib seaborn requests
